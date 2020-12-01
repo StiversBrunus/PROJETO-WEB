@@ -1,0 +1,493 @@
+/*Resetar CSS*/
+
+    {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Classes de Padronização*/
+.background {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.backgroundLogo {
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border {
+    border: solid 1px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*---------------------------------*/
+
+
+.caixa {
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    border: solid 1px;
+    box-shadow: 50px, 50px;
+    box-shadow: 10px 10px 10px 10px #888888;
+    border-radius: 100px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+#caixa{
+    width: 100%;
+    min-height: 1000px;
+    height: auto;
+    background-color: white;
+    border: solid 1px;
+    box-shadow: 50px, 50px;
+    box-shadow: 10px 10px 10px 10px #888888;
+    border-radius: 100px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+/*CABECALHO*/
+.caixa_cabecalho {
+    width: 90%;
+    height: 15%;
+    background-color: transparent;
+    border-bottom: solid 1px;
+
+}
+
+.caixa_titulo {
+    width: 70%;
+    height: 100%;
+    float: left;
+    background-color: transparent;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.caixa_logo {
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: transparent;
+    background-image: url(../img/iconConfig3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*MENU*/
+
+.caixa_menu {
+    width: 90%;
+    height: 15%;
+    border-bottom: solid 1px;
+}
+
+.menuFirst {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: transparent;
+}
+
+.menuSecond {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: transparent;
+}
+
+.card {
+    width: 30%;
+    height: 100%;
+    background-color: transparent;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.fotoCard {
+    width: 80%;
+    height: 80%;
+    background-color: transparent;
+}
+
+#fotoCard1 {
+    background-image: url(../img/iconFolder.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#fotoCard2 {
+    background-image: url(../img/iconPhone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#fotoCard3 {
+    background-image: url(../img/iconUsers.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.textoCard {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    background-color: transparent;
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.logout {
+    width: 60%;
+    height: 100%;
+    float: right;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.logout div {
+    width: 100%;
+    height: 80%;
+    background-color: transparent;
+    text-align: right;
+}
+
+#txtLogout {
+    width: 100%;
+    height: 20%;
+    background-color: transparent;
+}
+
+.titulo h1 {
+    width: 1000px;
+    height: 50px;
+    font-size: 50px;
+    text-align: center;
+    background-color: transparent;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.conteudo {
+    width: 90%;
+    height: 50%;
+    background-color: transparent;
+    padding-top: 15px;
+}
+
+.caixa_opcoes {
+    width: 90%;
+    height: 200px;
+    background-color: transparent;
+}
+
+.opcoes {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: transparent;
+}
+
+#cardUsuario {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    margin-left: 340px;
+    background-image: url(../img/newusers.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#cardAddNivel {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    margin-left: 340px;
+    background-image: url(../img/newlevel.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#cardNivel {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    margin-left: 270px;
+    background-image: url(../img/usersetting.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*CARD DE CATEGORIAS*/
+.box_categoria{
+    width: 1300px;
+    height: 400px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.empresa{
+   width: 300px;
+    height: 300px;
+    background-color: red;
+    float: left;
+    margin-right: 80px;
+}
+.loja{
+   width: 300px;
+    height: 300px;
+    background-color: transparent;
+    float: left;
+    margin-right: 50px;
+
+}
+.curiosidade{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    float: left;
+    margin-right: 10px;
+
+}
+.imgCategoria{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border: solid 0px;
+}
+#imgStore{
+    align-items: center;
+}
+.textoCategoria{
+    width: 100%;
+    height: 70px;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    border: solid 0px;
+}
+#padding_box{
+    width: 90%;
+    height: 100px;
+    background-color: transparent;
+}
+
+.caixa_table {
+    width: 90%;
+    min-height: 300px;
+    max-height: 300px;
+    overflow: auto;
+    background-color: transparent;
+}
+
+#tabelaUser {
+    width: 90%;
+    min-height: 150px;
+    max-height: 170px;
+    overflow: auto;
+    background-color: transparent;
+}
+
+#tabelaProdutos {
+    width: 90%;
+    min-height: 200px;
+    max-height: 200px;
+    overflow: auto;
+    background-color: transparent;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+#tabelaNivel {
+    width: 90%;
+    min-height: 150px;
+    max-height: 170px;
+    overflow: auto;
+    
+}
+
+#consultaNivel th,
+td {
+    width: 300px;
+    height: 30px;
+    ;
+    border: solid 1px black;
+   
+}
+
+.span {
+    width: 1000px;
+    height: 300px;
+    font-size: 60px;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+#caixa_filtro {
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.cab {
+    font-size: 25px;
+    background-color: #666666;
+}
+
+#consulta th,
+td {
+    width: 400px;
+    height: 30px;
+    ;
+    border: solid 1px black;
+}
+
+
+.rodape {
+    width: 90%;
+    height: 20%;
+    background-color: transparent;
+    border-top: solid 1px;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+/*Editar*/
+#caixa_editar {
+    width: 500px;
+    height: 400px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+
+/* ADMINITRAÇÃO DE CONTEUDO*/
+    /*primeira caixa */
+#conteudo_admConteudo{
+    width: 90%;
+    min-height: 500px;
+    height: auto;
+    background-color: transparent;
+    padding-top: 15px;
+}
+.caixa_inserir_conteudo {
+    width: 65%;
+    height: 230px;
+    background-color: transparent;
+}
+
+
+.first_box_insert{
+    width: 100%;
+    height: 450px;
+    border-bottom: solid 1px;
+    background-color: transparent;
+}
+
+#first_box_produto{
+    width: 100%;
+    height: 600px;
+    border-bottom: solid 1px;
+    background-color: transparent;
+}
+.caixa_texto {
+    width: 50%;
+    height: 100%; 
+    float: left;
+    background-color: transparent;
+}
+#caixa_formulario_dois{
+    width: 50%;
+    height: 100%; 
+    float: left;
+    background-color: transparent;
+    
+}
+#caixa_inserir_conteudo_dois{
+    width: 65%;
+    height: 360px;
+    background-color: transparent;
+}
+.caixa_imagem {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: transparent;
+}
+
+#consulta_conteudo th,
+tr {
+    width: 300px;
+    height: 10px;
+    ;
+    border: solid 1px black;
+}
+
+#consulta_produtos th,
+tr {
+    width: 300px;
+    height: 10px;
+    ;
+    border: solid 1px black;
+}
+
+#linha_consulta{
+    width: 300px;
+    min-height: 30px;
+    max-height: 50px;
+    overflow: auto;
+}
+
+#linha_consulta_produtos{
+    width: 200px;
+    min-height: 30px;
+    max-height: 50px;
+    overflow: auto;
+}
+
+.imgFoto{
+    width: 100px;
+    height: 100px;
+}
+
+.imgFotoDois{
+    width: 100px;
+    height: 100px;
+   
+}
+
+#imgGrande{
+    width: 100%;
+    height: 100%;
+}
+
+/*INSERIR LOJA*/
+#caixa_inserir_loja{
+    width: 65%;
+    height: 250px;
+    background-color: transparent;
+}
